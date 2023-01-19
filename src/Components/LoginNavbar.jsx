@@ -15,25 +15,26 @@ const LoginNavbar = () => {
                   height="100"
                   width="140"
                 />
-                {/* bistro */}
+              
               </Link>
 
               <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                   <li className="nav-item active">
-                    <Link className="nav-link" to="/">
+                    <Link className="nav-link" to="/home">
                       Home
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" to="#">
-                      Add restaurant
+                    <Link className="nav-link" to="/explore">
+                      Explore Now
                     </Link>
                   </li>
                   <li className="nav-item ">
                     <Link className="nav-link" to="/Login">
                       Login
                     </Link>
+                   
                   </li>
                   <li className="nav-item">
                     <Link className="nav-link" to="/About">

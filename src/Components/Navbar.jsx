@@ -5,12 +5,13 @@ const Navbar = () => {
   return (
     <>
       <div className="">
+
         <div className="row">
           <div className="col-12 mx-auto">
             <nav className="navbar navbar-expand-lg ">
               <Link className="navbar-brand" to="/">
               <img src="images/bistro1.png" alt="image" height="100" width="140"/>
-              {/* bistro */}
+           
               </Link>
              
               <div className="collapse navbar-collapse" id="navbarNav">
@@ -21,8 +22,8 @@ const Navbar = () => {
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link text-white" to="#">
-                      Add restaurant
+                    <Link className="nav-link text-white" to="/explore">
+                      Explore now 
                     </Link>
                   </li>
                   <li className="nav-item ">

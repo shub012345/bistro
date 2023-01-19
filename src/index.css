@@ -29,3 +29,7 @@ code {
 .bistro {
   font-family: "Orbitron";
 }
+.fullHeight{
+  height:70vh;
+  width:100%;
+}

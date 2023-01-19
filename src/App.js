@@ -6,23 +6,23 @@ import Home from "./pages/Home";
 
 import { Box, Typography } from "@mui/material";
 import LocationCard from "./Components/LocationCard";
-import AddRestaurant from "./Components/AddRestaurant";
 
 import Footer1 from "./Components/Footer1";
 import Collection from "./Components/Collection";
 import Login from "./pages/Login";
 import react from "react-router-dom";
 import SignupPage from "./pages/SignupPage";
+import Explore from "./pages/Explore";
 
 const App = () => {
   return (
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="login" element={<Login />} />
-          <Route path="Addrestaurant" element={<AddRestaurant />} />
+          <Route path="/" element={<Login />} />
+          <Route path="home" element={<Home />} />
           <Route path="about" element={<SignupPage />} />
+          <Route path="explore" element={<Explore />} />
           <Route path="*" element={<Login />} />
         </Routes>
       </BrowserRouter>
