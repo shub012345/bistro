@@ -17,10 +17,10 @@ const Explore = () => {
   return (
     <>
     <LoginNavbar/>
-      <div className="px-4 fullHeight w-100% mt-16 flex-wrap">
-        <div className="text-5xl text-white">Collections</div>
-      <div className="text-white">  Explore curated lists of top restaurants, cafes, pubs, and bars in Indore, based on trends</div>
-        <div className="flex flex-row basis-full  gap-4 mb-1 lg:no-wrap">
+      <div className="px-4 fullHeight w-100% mt-8 flex-wrap">
+        <div className="text-5xl">Collections</div>
+      <div className="">  Explore curated lists of top restaurants, cafes, pubs, and bars in Indore, based on trends</div>
+        <div className="flex flex-row basis-full  justify-between mb-1 lg:no-wrap">
           <ZCard
             title="Night Owl"
             desc="fast foods, drinks "
@@ -42,7 +42,7 @@ const Explore = () => {
             imgsrc="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/obd9uwesga5zg6jpz66d"
           />
         </div>
-        <div className="mt-4 flex flex-row basis-full  gap-4 lg:no-wrap ">
+        <div className="mt-4 flex flex-row basis-full justify-between lg:no-wrap ">
           <ZCard
             title="Maharaja Burger"
             desc="burgers,pizza"
@@ -64,7 +64,7 @@ const Explore = () => {
             imgsrc="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/fjvib2asmxrom5kx4toq"
           />
         </div>
-        <div className="mt-4 flex flex-row md:basis-full  gap-4 lg:no-wrap ">
+        <div className="mt-4 flex flex-row md:basis-full  justify-between lg:no-wrap ">
           <ZCard
             title="Urban King"
             desc="Steet Foods"

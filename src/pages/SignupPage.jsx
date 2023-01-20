@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const SignupPage = () => {
   return (
-    <div id="Abody">
+    <div id="Abody" className="body1">
       <h1>
         <form class="signup" onsubmit="return false" autocomplete="off">
           <h1>Create account</h1>

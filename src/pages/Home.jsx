@@ -12,6 +12,7 @@ import Navbar from "../Components/Navbar";
 const Home = () => {
   return (
     <>
+    <div className="body1">
       <Navbar />
       <Typography
         variant="h1"
@@ -25,8 +26,8 @@ const Home = () => {
       >
         Discover the best food & drinks in indore
       </Typography>
-
-      <Box sx={{ height: "300px" }}></Box>
+      </div>
+     
       <Box sx={{ display: "flex", flex: "row", gap: "0 3rem" }}>
         <Box className="p-5 flex md:basis-full grow-1 shrink-1 justify-between flex-wrap">
           <ZCard

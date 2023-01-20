@@ -46,7 +46,7 @@ const Login = () => {
               Login
             </button>
             <button
-              className="flex flex-col text-white hover:opacity-80 justify-center "
+              className="flex flex-col text-white hover:opacity-80 justify-center"
               onClick={handleClick}
             >
               continue as guest
